@@ -1,0 +1,27 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package pe.edu.tecsup.biblioteca.loans.java.model;
+
+
+import java.util.Objects;
+
+public class Book {
+    private final String isbn;
+    private String title;
+    private boolean available = true;
+
+    public Book(String isbn, String title) {
+        this.isbn = Objects.requireNonNull(isbn);
+        this.title = Objects.requireNonNull(title);
+    }
+
+    public String getIsbn() { return isbn; }
+    public String getTitle() { return title; }
+    public boolean isAvailable() { return available; }
+
+    public void setTitle(String title) { this.title = Objects.requireNonNull(title); }
+    public void markBorrowed() { this.available = false; }
+    public void markReturned() { this.available = true; }
+}

@@ -1,0 +1,13 @@
+pe/edu/tecsup/biblioteca/loans/java/repo/mem/InMemoryMemberRepository.class
+pe/edu/tecsup/biblioteca/loans/java/util/ClockProvider.class
+pe/edu/tecsup/biblioteca/loans/java/repo/mem/InMemoryLoanRepository.class
+pe/edu/tecsup/biblioteca/loans/java/BibliotecaLoansJava.class
+pe/edu/tecsup/biblioteca/loans/java/repo/LoanRepository.class
+pe/edu/tecsup/biblioteca/loans/java/repo/mem/InMemoryBookRepository.class
+pe/edu/tecsup/biblioteca/loans/java/repo/MemberRepository.class
+pe/edu/tecsup/biblioteca/loans/java/repo/BookRepository.class
+pe/edu/tecsup/biblioteca/loans/java/model/Loan.class
+pe/edu/tecsup/biblioteca/loans/java/service/LoanService.class
+pe/edu/tecsup/biblioteca/loans/java/model/Member.class
+pe/edu/tecsup/biblioteca/loans/java/service/DomainException.class
+pe/edu/tecsup/biblioteca/loans/java/model/Book.class
